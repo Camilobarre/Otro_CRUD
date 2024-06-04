@@ -1,0 +1,146 @@
+{
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "trainer"
+    },
+    {
+      "id": "3",
+      "name": "coder"
+    }
+  ],
+  "users": [
+    {
+      "id": "429b",
+      "roleId": "2",
+      "userName": "Darwing",
+      "birthDate": "1999-09-25",
+      "email": "darwing@outlook.com",
+      "password": "$2a$08$iz5dTrZnYlyOAbCAX/RwFepNivjzcMOOB8Hfd8zivxvsVORLEnqG."
+    },
+    {
+      "id": "a80b",
+      "roleId": "1",
+      "userName": "Manuela",
+      "birthDate": "1998-07-14",
+      "email": "manuela2364@gmail.com",
+      "password": "$2a$08$bOPAynxmjb2EIH6tmVkvA.7mlLdR2m25wpMUIA3piqhFqnflCWGnG"
+    },
+    {
+      "id": "908f",
+      "roleId": "3",
+      "userName": "Alexis Soto ",
+      "birthDate": "1988-10-10",
+      "email": "soto.alexis@hotmail.com",
+      "password": "$2a$08$ykIqYyJkb4xBsqbd4Pase.IEPY6tkeBreSM1QxlMUtERLd09BVOzm"
+    },
+    {
+      "id": "c30e",
+      "roleId": "3",
+      "userName": "Juliana soto",
+      "birthDate": "2010-10-26",
+      "email": "juli2610@gmail.com",
+      "password": "$2a$08$fr6b00GyVsmMyRFfXrEQ4e1f1EkdyxG1Ei6QJFMGiLkd71kGPC3de"
+    },
+    {
+      "id": "08a7",
+      "roleId": "3",
+      "userName": "adela Barreiro",
+      "birthDate": "1959-05-18",
+      "email": "adela1859@hotmail.com",
+      "password": "$2a$08$mPooJHrDwzJ2aoPp/7WHmuzQnGr9ho593QfoLP5bgjAQo7P7TVrly"
+    },
+    {
+      "id": "e4a4",
+      "roleId": "3",
+      "userName": "lenlly pinilla",
+      "birthDate": "1991-05-16",
+      "email": "lenlly_15@hotmail.com",
+      "password": "$2a$08$NewM9Yjv0P6FpNlqSG187eTT0auC2NRC5NDo2Lw/MiVF8On/j1rMS"
+    },
+    {
+      "id": "6a85",
+      "roleId": "3",
+      "userName": "Gilberto Soto Muñoz",
+      "birthDate": "1942-08-09",
+      "email": "mitisoto@hotmail.com",
+      "password": "$2a$08$u/4x7MZSJZnaegfOTGzLweMDUbCDf22H2rXbzD0jELN1WfAKT5odG"
+    },
+    {
+      "id": "bc7e",
+      "roleId": "3",
+      "userName": "Juan felipe Pulgarín",
+      "birthDate": "1999-11-06",
+      "email": "juan.pilar@hotmail.com",
+      "password": "$2a$08$goOfLnARDwUFkUrCuxfHm.t0zZxOrneRwY.igydMxLHm7DGHxivdO"
+    },
+    {
+      "id": "429b",
+      "roleId": "2",
+      "userName": "Darwing",
+      "birthDate": "1999-09-25",
+      "email": "darwing@outlook.com",
+      "password": "$2a$08$iz5dTrZnYlyOAbCAX/RwFepNivjzcMOOB8Hfd8zivxvsVORLEnqG."
+    },
+    {
+      "id": "a80b",
+      "roleId": "1",
+      "userName": "Manuela",
+      "birthDate": "1998-07-14",
+      "email": "manuela2364@gmail.com",
+      "password": "$2a$08$bOPAynxmjb2EIH6tmVkvA.7mlLdR2m25wpMUIA3piqhFqnflCWGnG"
+    },
+    {
+      "id": "908f",
+      "roleId": "3",
+      "userName": "Alexis Soto ",
+      "birthDate": "1988-10-10",
+      "email": "soto.alexis@hotmail.com",
+      "password": "$2a$08$ykIqYyJkb4xBsqbd4Pase.IEPY6tkeBreSM1QxlMUtERLd09BVOzm"
+    },
+    {
+      "id": "c30e",
+      "roleId": "3",
+      "userName": "Juliana soto",
+      "birthDate": "2010-10-26",
+      "email": "juli2610@gmail.com",
+      "password": "$2a$08$fr6b00GyVsmMyRFfXrEQ4e1f1EkdyxG1Ei6QJFMGiLkd71kGPC3de"
+    },
+    {
+      "id": "08a7",
+      "roleId": "3",
+      "userName": "adela Barreiro",
+      "birthDate": "1959-05-18",
+      "email": "adela1859@hotmail.com",
+      "password": "$2a$08$mPooJHrDwzJ2aoPp/7WHmuzQnGr9ho593QfoLP5bgjAQo7P7TVrly"
+    },
+    {
+      "id": "e4a4",
+      "roleId": "3",
+      "userName": "lenlly pinilla",
+      "birthDate": "1991-05-16",
+      "email": "lenlly_15@hotmail.com",
+      "password": "$2a$08$NewM9Yjv0P6FpNlqSG187eTT0auC2NRC5NDo2Lw/MiVF8On/j1rMS"
+    },
+    {
+      "id": "6a85",
+      "roleId": "3",
+      "userName": "Gilberto Soto Muñoz",
+      "birthDate": "1942-08-09",
+      "email": "mitisoto@hotmail.com",
+      "password": "$2a$08$u/4x7MZSJZnaegfOTGzLweMDUbCDf22H2rXbzD0jELN1WfAKT5odG"
+    },
+    {
+      "id": "bc7e",
+      "roleId": "3",
+      "userName": "Juan felipe Pulgarín",
+      "birthDate": "1999-11-06",
+      "email": "juan.pilar@hotmail.com",
+      "password": "$2a$08$goOfLnARDwUFkUrCuxfHm.t0zZxOrneRwY.igydMxLHm7DGHxivdO"
+    }
+  ]
+}

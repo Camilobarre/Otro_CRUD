@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Ícono de la pestaña -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <!-- Título de la página -->
+  <title>JWS</title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center py-4 bg-body-tertiary">
+  <!-- Encabezado vacío -->
+  <header></header>
+
+  <!-- Contenido principal -->
+  <main class="form-signin m-3 text-center">
+    <!-- Formulario de inicio de sesión -->
+    <form id="form" class="needs-validation" novalidate>
+      <!-- Logotipo -->
+      <figure>
+        <img class="mb-1 w-25 h-auto" src="https://i.imgur.com/dc8NIoP.png" alt="logo secure software" width="200" height="200">
+      </figure>
+      <!-- Título -->
+      <h1 class="h3 mb-3 fw-normal">JSON WEB SERVER</h1>
+
+      <!-- Campo de correo electrónico -->
+      <div class="form-floating my-1">
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        <label for="email">Email address</label>
+      </div>
+      <!-- Campo de contraseña -->
+      <div class="form-floating my-1">
+        <input type="password" class="form-control" id="password" placeholder="Password" required>
+        <label for="password">Password</label>
+      </div>
+
+      <!-- Botón de inicio de sesión -->
+      <button class="btn btn-primary w-100 py-2 mt-5" type="submit">Sign in</button>
+    </form>
+
+    <!-- Enlace para registrarse -->
+    <div class="mt-2">
+      <h5>Do you have an account? <span class="badge bg-secondary"><a href="./src/users/register.html" class="text-white text-decoration-none">Sign up</a></span></h5>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <!-- Validación del formulario -->
+  <script type="module" src="./src/js/validation.js"></script>
+  <!-- Lógica de inicio de sesión -->
+  <script type="module" src="./src/js/login.js"></script>
+  <!-- Temas de la aplicación -->
+  <script type="module" src="./src/js/themes.js"></script>
+</body>
+
+</html>

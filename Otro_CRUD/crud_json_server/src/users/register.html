@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icono de la pestaña -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- Título de la página -->
+    <title>JWS</title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center py-4 bg-body-tertiary">
+    <!-- Encabezado -->
+    <header></header>
+    <!-- Contenido principal -->
+    <main class="form-signin m-3 text-center">
+        <!-- Formulario de registro -->
+        <form id="form" class="needs-validation" novalidate>
+            <!-- Logo -->
+            <figure>
+                <img class="mb-1 w-25 h-auto" src="https://i.imgur.com/dc8NIoP.png" alt="logo secure software"
+                    width="300" height="300">
+            </figure>
+            <!-- Título -->
+            <h1 class="h3 mb-3 fw-normal">JSON WEB SERVER</h1>
+            <!-- Campo para el nombre del usuario -->
+            <div class="form-floating">
+                <input type="text" class="form-control" id="user-name" placeholder="User Name" required>
+                <label for="user-name">User Name</label>
+            </div>
+            <!-- Campo para la fecha de nacimiento del usuario -->
+            <div class="form-floating my-2">
+                <input type="date" class="form-control" id="birth-date" placeholder="name@example.com" required>
+                <label for="birth-date">Birth date</label>
+            </div>
+            <!-- Campo para el correo electrónico del usuario -->
+            <div class="form-floating my-2">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                <label for="email">Email address</label>
+            </div>
+            <!-- Campo para la contraseña del usuario -->
+            <div class="form-floating my-2">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                <label for="password">Password</label>
+            </div>
+            <!-- Campo para confirmar la contraseña del usuario -->
+            <div class="form-floating">
+                <input type="password" class="form-control" id="password-confirm" placeholder="Confirm password"
+                    required>
+                <label for="password">Password</label>
+            </div>
+            <!-- Botón para registrarse -->
+            <button class="btn btn-primary w-100 py-2 mt-5" type="submit">Sign Up</button>
+        </form>
+        <!-- Enlace para iniciar sesión -->
+        <div class="mt-2">
+            <h5>Are you registered? <span class="badge bg-secondary"><a href="/"
+                        class="text-white text-decoration-none">Sign in</a></span></h5>
+        </div>
+    </main>
+
+    <!-- Scripts de validación, registro y gestión de temas -->
+    <script type="module" src="../js/validation.js"></script>
+    <script type="module" src="../js/register.js"></script>
+    <script type="module" src="../js/themes.js"></script>
+</body>
+
+</html>

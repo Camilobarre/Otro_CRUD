@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Icono de la pestaña -->
+  <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
+  <!-- Archivo de script para gestionar la sesión de Bootstrap -->
+  <script src="../hooks/bootstrapSession.js"></script>
+  <!-- Título de la página -->
+  <title>users</title>
+</head>
+
+<body>
+  <!-- Encabezado de la página -->
+  <header class="container-fluid">
+    <h1 class="text-center">Users</h1>
+  </header>
+
+  <!-- Modal para la creación o edición de usuarios -->
+  <div class="modal fade" id="usersModal" tabindex="-1" aria-labelledby="usersModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- Título del modal -->
+          <h1 class="modal-title fs-5" id="usersModalLabel">Users</h1>
+          <!-- Botón de cierre del modal -->
+          <button type="button" id="btn-close-modal" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Formulario para la creación o edición de usuarios -->
+          <form id="form" class="needs-validation" novalidate>
+            <!-- Selección del rol del usuario -->
+            <div class="position-relative">
+              <select class="form-select" id="rol" required="">
+                <option selected="" disabled="" value="">Rol</option>
+              </select>
+            </div>
+            <!-- Campo para el nombre del usuario -->
+            <div class="form-floating my-2">
+              <input type="text" class="form-control" id="user-name" placeholder="User Name" required>
+              <label for="user-name">User Name</label>
+            </div>
+            <!-- Campo para la fecha de nacimiento del usuario -->
+            <div class="form-floating my-2">
+              <input type="date" class="form-control" id="birth-date" placeholder="name@example.com" required>
+              <label for="birth-date">Birth date</label>
+            </div>
+            <!-- Campo para el correo electrónico del usuario -->
+            <div class="form-floating my-2">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              <label for="email">Email address</label>
+            </div>
+            <!-- Campo para la contraseña del usuario -->
+            <div class="form-floating my-2">
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
+              <label for="password">Password</label>
+            </div>
+            <!-- Campo para confirmar la contraseña del usuario -->
+            <div class="form-floating">
+              <input type="password" class="form-control" id="password-confirm" placeholder="Confirm password" required>
+              <label for="password">Password</label>
+            </div>
+            <!-- Botón para guardar el usuario -->
+            <button class="btn btn-primary w-100 py-2 mt-5" type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <main class="container-fluid">
+    <!-- Barra de navegación y botón para agregar un nuevo usuario -->
+    <nav class="d-flex justify-content-between">
+      <form class="d-flex w-25" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#usersModal">
+        New
+      </button>
+    </nav>
+
+    <!-- Tabla para mostrar la lista de usuarios -->
+    <section class="table-responsive table-responsive-sm ">
+      <table class="table table-sm caption-top align-middle table-striped table-hover table-bordered text-center">
+        <caption>List of users</caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Role</th>
+            <th>UserName</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <!-- Cuerpo de la tabla -->
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="container-fluid d-flex justify-content-center">
+    <!-- Botón para cerrar la sesión del usuario -->
+    <button type="button" class="btn btn-danger" id="sign-off">Sign off</button>
+  </footer>
+
+  <!-- Scripts de validación, funcionalidades de usuarios y temas -->
+  <script type="module" src="../js/validation.js"></script>
+  <script type="module" src="../js/users.js"></script>
+  <script type="module" src="../js/themes.js"></script>
+</body>
+
+</html>
